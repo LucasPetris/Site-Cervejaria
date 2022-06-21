@@ -1,0 +1,254 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #DEB887;
+}
+
+/* Formatação do Menu Principal */
+
+.menu-principal {
+	width: 100;
+	height: 200px;
+	margin: 0px auto;
+	background-color: #B8860B;
+	background-image: url(../imagens/pasto-extraordinario.png);
+	background-size: cover;
+}
+
+.lista-menu li {
+	float: left;
+	list-style: none;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.lista-menu a {
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px;
+	font-size: 1.1em;
+	color: #FFEBCD;
+}
+
+.lista-menu a:hover {
+	background: #556B2F;
+}
+
+.logo h1 {
+	color: #006400;
+	font-family: Copperplate, Papyrus, fantasy;
+	text-align: center;
+	float: left;
+	padding: 50px;
+}
+
+.logo form {
+	float: left;
+}
+
+.logo h3 {
+	color: #fff;
+}
+
+/* ------------------------------------ */
+
+/* Formatação inicial da página promoção */
+
+.promocao {
+	width: 100;
+	height: 50px;
+	background-color: #556B2F;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.promocao a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #FFF8DC;
+}
+
+.promocao:hover {
+	background-color: #B8860B;
+	cursor: pointer;
+}
+
+/* ------------------------------------ */
+
+/* Formatação da lista secundaria do menu (carrinho, login entre outros) */
+
+.lista-secundaria a {
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #FFF8DC;
+}
+
+.lista-secundaria a:hover {
+	background: #556B2F;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.lista-secundaria li{
+	float: right;
+	padding-right: 10px;
+	margin: 20px;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.lista-secundaria img {
+	margin-bottom: 25px;
+	padding-left: 15px;
+}
+
+.formulario-buscar fieldset {
+	border-radius: 5px;
+}
+
+/* ------------------------------------ */
+
+/* Formatação do Container da Página */
+
+#container-pagina {
+	background: #fff;
+	width: 100;
+	height: 1200px;
+	margin-top: 10px;
+	margin: 10px auto;
+}
+
+/* ------------------------------------ */
+
+/* Formatação do Conteúdo Principal */
+
+.conteudo-principal {
+	margin: 20px;
+	padding: 10px;
+	width: 100;
+	height: 300px;
+	background-image: url(../imagens/festival-cerveja.jpg);
+	border-radius: 20px;
+
+}
+
+.conteudo-principal h2 {
+	font-size: 1.4em;
+	color: #A52A2A;
+	text-align: center;
+	padding: 5px;
+}
+
+.conteudo-principal p {
+	padding: 10px;
+	margin: 10px;
+	font-size: 1.2em;
+	color: #FFF;
+}
+
+.conteudo-principal a {
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #B8860B;
+	margin: 15px;
+	padding-top: 50px;
+}
+
+/* Formatação conteudo secundario */
+
+.conteudo-secundario {
+	margin: 20px;
+	padding: 10px;
+	width: 100;
+	height: 650px;
+	background: #B8860B;
+	border-radius: 20px;
+}
+
+.conteudo-secundario p {
+	padding: 5px;
+	margin: 10px;
+	font-size: 1.1em;
+	color: #FFF;
+}
+
+.conteudo-secundario h2 {
+	font-size: 1.4em;
+	color: #A52A2A;
+	text-align: center;
+	padding: 5px;
+}
+
+.conteudo-secundario ul {
+	list-style: none;
+	padding: 10px;
+	margin: 10px;
+	border-top: 5px solid #DEB887;
+}
+
+.conteudo-secundario ul li a{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 5px;
+	color: #556B2F;
+}
+
+.conteudo-secundario li {
+	margin: 5px;
+	padding: 5px;
+}
+
+.conteudo-secundario img {
+	border-radius: 5px;
+}
+
+/* Formatação Roda Pé */
+
+.rodape {
+	width: 100;
+	height: 25px;
+	background: #9932CC;
+	color: #FFF;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/*      Formataçao Parallax      */
+
+#caixa-parallax, html {
+	font: 16px "Lato", sans-serif;
+	color: #777;
+	height: 100%;
+}
+
+.caixa1, .caixa2 {
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background: url(../imagens/cerveja-fundo1.jpg);
+}
+
+.caixa2 {
+	background: url(../imagens/cerveja-fundo2.jpg);
+}
+
+/* ---------------------------- */
+
+.conteudo {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
