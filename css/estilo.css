@@ -262,7 +262,7 @@ form {
 
 label {
 	font-size: 1.1em;
-	color: #BDB76B;
+	color: #FFF;
 }
 
 .formulario {
@@ -270,4 +270,9 @@ label {
 	height: 300px;
 	border: 1px solid #FFF;
 	margin: 100px;
+}
+
+.conteudo-secundario h1 {
+	text-align: center;
+	color: #FFF;
 }
