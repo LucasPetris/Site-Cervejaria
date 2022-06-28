@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	
+
 	<!-- Compatibilidade com Browsers --->
 
 	<script src="js/html5shiv.js"></script>
@@ -42,13 +42,11 @@
 
 			<h1>Sir Lukanos Handcraft. . .</h1>
 
+		<h3>Buscar na Página</h3>
 		<form class="formulario-buscar">
-
-			<label for="buscar">Buscar na Página</label>
 			<fieldset>
-				<input type="search" id="buscar">
+				<input type="search" id="pesquisa">
 			</fieldset>
-			
 		</form>
 
 		</div>
@@ -70,30 +68,33 @@
 
 	<div id="container-pagina">
 		
-		<div class="conteudo-principal">
-
-			<h2>Primeiro dia de degustação</h2>
-		<p>Nossa cerva vai ter um dia especial para sua degustação, não se esqueça de marcar a data e horário para  comprar seu pack e experimentar!</p>
-		<a href="">continue lendo...</a>
-
-		</div>
-
 		<div class="conteudo-secundario">
-			
-			<h2>Experimente alguns de nossos produtos!</h2>
 
-			<p>Inspiramos você a degustar nossa verdadeira obra de arte!, temos diversos sabores para você experimentar e rever seu conceito sobre cerveja artesanal, veja abaixo</p>
+			<h1>Contato - Preencha o formulário</h1>
 
-			<ul>
-				<img src="imagens/cerveja-pilsen.jpg" width="200">
-				<li><a href="">Cerveja Pilsen</a></li>
+			<div class="formulario">
 
-				<img src="imagens/cerveja-weizen.jpg" width="100">
-				<li><a href="">Cerveja Weizen</a></li>
+				<form>
 
-				<img src="imagens/cerveja-preta.png" width="200">
-				<li><a href="">Cerveja Preta</a></li>
-			</ul>
+					<label for="nome">Nome</label>
+					<input type="nome" id="nome" required autofocus>
+					<br><br>
+
+					<label for="email">Email</label>
+					<input type="email" id="email" required>
+					<br><br>
+
+					<label for="mensagem">Mensagem:</label>
+					<textarea id="mensagem" rows="5" cols="30">
+						
+					</textarea>
+					<br><br>
+
+					<input type="submit" id="enviar">
+
+				</form>
+
+			</div>
 
 		</div>
 
