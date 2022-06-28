@@ -12,7 +12,7 @@ body {
 
 .menu-principal {
 	width: 100;
-	height: 200px;
+	height: 250px;
 	margin: 0px auto;
 	background-color: #B8860B;
 	background-image: url(../imagens/pasto-extraordinario.png);
@@ -108,6 +108,7 @@ body {
 
 .formulario-buscar fieldset {
 	border-radius: 5px;
+	margin: 10px;
 }
 
 
@@ -165,7 +166,7 @@ body {
 	margin: 20px;
 	padding: 10px;
 	width: 100;
-	height: 650px;
+	height: 700px;
 	background: #B8860B;
 	border-radius: 20px;
 }
@@ -193,14 +194,22 @@ body {
 
 .conteudo-secundario ul li a{
 	text-decoration: none;
-	font-size: 1.2em;
-	padding: 5px;
+	font-size: 1.0em;
 	color: #556B2F;
 }
 
 .conteudo-secundario li {
 	margin: 5px;
 	padding: 5px;
+	background: #FFF;
+	width: 150px;
+	height: 25px;
+}
+
+.conteudo-secundario li:hover {
+	width: 300px;
+	background: #FFF;
+	transition: all 3s;
 }
 
 .conteudo-secundario img {
@@ -218,7 +227,19 @@ body {
 	text-align: center;
 }
 
-/*      Formataçao Parallax      */
+/*      Formataçao Sobre      */
+
+.sobre-nos img {
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+
+/* ---------------------------------------*/
 
 #caixa-parallax, html {
 	font: 16px "Lato", sans-serif;
@@ -244,14 +265,23 @@ body {
 	background: url(../imagens/cerveja-fundo2.jpg);
 }
 
-/* ---------------------------- */
-
 .conteudo {
 	color: #777;
 	background-color: white;
 	text-align: justify;
 	padding: 50px 80px;
 }
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+/* -------------------------------------------------------- */
 
 /* --- Formatação Sobre - Formulario ---*/
 
