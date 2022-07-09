@@ -36,7 +36,7 @@ body {
 }
 
 .lista-menu a:hover {
-	background: #556B2F;
+	border-bottom: 1px solid #535858;
 }
 
 .logo h1 {
@@ -67,7 +67,7 @@ body {
 	padding-top: 20px;
 }
 
-.promocao a{
+.promocao a {
 	text-decoration: none;
 	font-size: 1.2em;
 	color: #FFF8DC;
@@ -234,53 +234,6 @@ body {
 	height: 500px;
 }
 
-
-
-
-
-
-/* ---------------------------------------*/
-
-#caixa-parallax, html {
-	font: 16px "Lato", sans-serif;
-	color: #777;
-	height: 100%;
-}
-
-.caixa1, .caixa2 {
-	position: relative;
-	height: 100%;
-	opacity: 0.7;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
-
-.caixa1 {
-	background: url(../imagens/cerveja-fundo1.jpg);
-}
-
-.caixa2 {
-	background: url(../imagens/cerveja-fundo2.jpg);
-}
-
-.conteudo {
-	color: #777;
-	background-color: white;
-	text-align: justify;
-	padding: 50px 80px;
-}
-
-.conteudo-titulo {
-	position: absolute;
-	left: 0;
-	top: 45%;
-	width: 100%;
-	color: #fff;
-	text-align: center;
-}
-
 /* -------------------------------------------------------- */
 
 /* --- Formatação Sobre - Formulario ---*/
@@ -305,4 +258,43 @@ label {
 .conteudo-secundario h1 {
 	text-align: center;
 	color: #FFF;
+}
+
+/* Formatação Catalogo */
+
+.titulo h1 {
+	font-style: oblique;
+	margin-top: 20px;
+}
+
+#container-catalogo {
+	width: 100;
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item {
+	background: #556B2F;
+	border-radius: 5px;
+	width: 300px;
+	height: 600px;
+	margin: 10px;
+}
+
+.item p {
+	font-size: 1.1em;
+	padding: 10px;
+	text-align: center;
+}
+
+.preco {
+	text-align: center;
+}
+
+.item img {
+	margin: 50px;
 }
